@@ -1,0 +1,118 @@
+:root {
+    color-scheme: only light;
+}
+
+.hover-img {
+    background-color: #000;
+    color: #fff;
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+.hover-img * {
+    box-sizing: border-box;
+    transition: all 0.45s ease;
+}
+.hover-img::before,
+.hover-img::after {
+    background-color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    content: '';
+    transition: all 0.3s ease;
+    z-index: 1;
+    opacity: 0;
+    transform: scaleY(2);
+}
+
+.hover-img img {
+    vertical-align: top;
+    max-width: 100%;
+    backface-visibility: hidden;
+}
+
+.hover-img figcaption {
+    position: absolute;
+    bottom: 10%;
+    left: 8%;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    line-height: 1.1em;
+    text-align: left;
+    opacity: 0;
+    z-index: 2;
+    transition-delay: 0.1s;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.hover-img:hover::before,
+.hover-img:hover::after {
+    transform: scale(1);
+    opacity: 1;
+}
+
+.hover-img:hover>img {
+    opacity: 0.7;
+}
+
+.hover-img:hover figcaption {
+    opacity: 1;
+}
+
+
+
+.exhibition:hover>img>svg {
+    fill: black;
+}
+
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.swiper {
+    background-color: transparent;
+    width: 100%;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.exhibition+div {
+    height: 0px;
+    
+}
+
+.exhibition+div > div {
+    height: 0px;
+    display: none;
+}
+
+
+.active+div {
+    height: auto;
+    transition: max-height 0.25s ease-out;
+}
+
+.active+div > div {
+    height: auto;
+    display: block;
+    transition: max-height 0.25s ease-out;
+}
