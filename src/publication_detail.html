@@ -1,25 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://use.typekit.net/uzi4nhr.css" />
-    <link href="../tailwind.css" rel="stylesheet" />
-    <link href="../index.css" rel="stylesheet" />
-    <title>Document</title>
-  </head>
 
-  <body>
-    <nav class="bg-white fixed top-0 w-full z-10">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.typekit.net/uzi4nhr.css">
+    <link href="../tailwind.css" rel="stylesheet">
+    <link href="../index.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+
+     <nav class="bg-white fixed top-0 w-full z-10">
       <div
         class="max-w-[1540px] flex h-[80px] items-center justify-between mx-auto p-4"
       >
-        <a href="#">
+        <a href="" class="flex items-center">
           <img
             src="../public/images/glob/primary.svg"
-            class="h-6 mr-3"
-            alt="Logo"
+            style="height: 25px"
+            class="mr-3"
+            alt="Flowbite Logo"
           />
         </a>
         <button
@@ -31,7 +34,7 @@
         >
           <img
             class="icon-open"
-            style="height: 16px"
+            style="height: 20px"
             src="../public/icons/menu.svg"
             alt=""
           />
@@ -45,310 +48,240 @@
         >
           <img style="height: 20px" src="../public/icons/close.svg" alt="" />
         </button>
-        <div
-          class="navbar h-full-nav lg:static lg:block hidden h-full fixed top-20 bg-white left-0 z-10 lg:w-auto w-full"
-          id="navbar-default"
-        >
-          <ul
-            style="height: calc(100% - 80px)"
-            class="font-medium lg:text-base text-lg flex flex-col lg:p-0 p-5 sm:justify-none justify-between lg:flex-row lg:space-x-6 md:mt-0 md:border-0"
+          <div
+            class="navbar h-full-nav lg:static lg:block hidden fixed top-20 bg-white left-0 z-10 lg:w-auto w-full"
+            id="navbar-default"
           >
-            <li>
-              <a
-                href="./artists.html"
-                class="block py-2 text-clr_monochrome_dark rounded md:bg-transparent"
-                aria-current="page"
-                >Artists</a
-              >
-            </li>
-            <li>
-              <a
-                href="./src/home.html"
-                class="block py-2 rounded text-clr_monochrome_dark"
-                >Exhibitions</a
-              >
-            </li>
-            <li>
-              <a href="#" class="block py-2 rounded text-clr_monochrome_dark"
-                >Art fairs</a
-              >
-            </li>
-            <li>
-              <a href="#" class="block py-2 rounded text-clr_monochrome_dark"
-                >Publications</a
-              >
-            </li>
-            <li>
-              <a href="#" class="block py-2 rounded text-clr_monochrome_dark"
-                >News</a
-              >
-            </li>
-            <li>
-              <a href="#" class="block py-2 rounded text-clr_monochrome_dark"
-                >About us</a
-              >
-            </li>
-
-            <li>
-              <select
-                class="text-gray-900 block lg:text-base text-lg"
-                style="outline: none; border: 0"
-              >
-                <option value="CA">SL</option>
-                <option value="CA">GE</option>
-                <option value="CA">EN</option>
-              </select>
-            </li>
-            <li></li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-
-    <main class="py-20">
-      <section>
-        <div
-          class="grid lx:grid-cols-2 justify-items-stretch max-w-[1540px] gap-10 p-4 m-auto"
-        >
-          <div class="flex flex-col w-full">
-            <div class="h-full flex flex-col justify-center">
-              <h1 class="text-2xl py-5 text-clr_primary font-light">
-                Considering unknow know with what is, and
-              </h1>
-              <p class="text-lg sm:pt-20 pt-5 text-clr_primary">
-                Chris Johanson
-              </p>
-            </div>
-          </div>
-          <div>
-            <div class="flex md:justify-end justify-center">
-            <img
-              class="max-w-[550px] w-full"
-              src="../public/images/publication_detail/_KKF5280.png"
-              alt="/"
-            />
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section>
-        <div
-          class="grid md:grid-cols-3 justify-items-between max-w-[1540px] gap-10 p-4 m-auto"
-        >
-          <div class="flex md:col-span-2 flex-col w-full">
-            <p class="text-base py-5">
-              Chris Johanson’s 2021 exhibition Considering Unknow Know With What
-              Is, And will be accompanied by a fully illustrated catalogue
-              dedicated exclusively to Johanson’s recent explorations on
-              recycled canvas. Designed by Perron-Roettinger, the publication
-              features new essays by both the artist and Jenny Gheith, Associate
-              Curator of Painting and Sculpture at the San Francisco Museum of
-              Modern Art (SFMOMA).
-            </p>
-            <p>
-              In her essay for the catalogue, “Harmonic Meditations: Chris
-              Johanson’s Form of Deep Listening,” Gheith writes:
-            </p>
-            &nbsp;
-            <p>
-              “Johanson uses words like ‘therapeutic’ when describing the
-              process of making his recent ‘peaceful paintings.’ Foregrounding
-              the work’s healing effects, Johanson paints in a way that is ‘slow
-              and deliberate, and because of that creates a calm meditative
-              headspace.’ He has been working in this manner in order to ‘slow
-              down my thoughts, to reduce the noise of my life.’ Just as in his
-              continual search for personal and creative growth, Johanson has
-              used his tinnitus—the persistent illusion of sound in his ears—to
-              reimagine his sonic environment and relationship to listening, so
-              have the sonic elements in his artworks and installations quieted
-              and slowed down. Not only have they shifted in tone and register,
-              but some have nearly disappeared. For example, Johanson’s recent
-              compositions rarely speak to us through speech bubbles and text;
-              rather, his paintings emphasize a more formal visual language
-              grounded in an energetic flow. These rhythmic hums manifest as
-              swirling shapes based on the curvature of his hand as it shifts
-              against the surface. Johanson’s vivid palette has transformed into
-              more muted tones and organic forms that are less saturated and at
-              times seem to fade into or look worn against the cotton surface.”.
-            </p>
-          </div>
-          <div class="flex flex-col space-y-4">
-            <div>
-              <p class="font-semibold text-base">Publisher</p>
-              <p>Mitchell-Innes & Nash</p>
-            </div>
-            <div>
-              <p class="font-semibold text-base">Book format</p>
-              <p>Hardcover 8 × 11.5 in. 128 pages 75 color</p>
-            </div>
-            <div>
-              <p class="font-semibold text-base">Publication date</p>
-              <p>April 18, 2023</p>
-            </div>
-            <div>
-              <p>ISBN 9781734405248</p>
-            </div>
-          </div>
-        </div>
-      </section>
-    </main>
-
-    <footer>
-      <div
-        class="mx-auto border-t-2 border-clr_primary border-opacity-20 w-full max-w-[1540px] p-4"
-      >
-        <div class="md:flex py-4 md:justify-between">
-          <div class="w-full mb-6 md:mb-0">
-            <a href="#">
-              <img
-                src="../public/images/glob/primary.svg"
-                class="h-6 mr-3"
-                alt="Logo"
-              />
-            </a>
-            <h1 class="text-xl font-light py-5 text-clr_monochrome_dark">
-              Zavod Y Gallery
-            </h1>
-            <div class="grid grid-cols-2 gap-8 sm:gap-6 lg:grid-cols-3">
-              <div>
-                <ul class="font-medium space-y-2">
-                  <li>
-                    <a href="https://flowbite.com/">Trubarjeva 79</a>
-                  </li>
-                  <li>
-                    <a href="https://tailwindcss.com/">1000 Ljubljana</a>
-                  </li>
-                  <li>
-                    <a href="https://tailwindcss.com/">Slovenija</a>
-                  </li>
-                </ul>
-              </div>
-              <div>
-                <ul class="font-medium space-y-2">
-                  <li>
-                    <a href="https://flowbite.com/">info@galerijay.si</a>
-                  </li>
-                  <li>
-                    <a href="https://tailwindcss.com/"
-                      >01 429 33 17 / 070 852 462</a
-                    >
-                  </li>
-                  <li>
-                    <a href="https://tailwindcss.com/">v delovnem času</a>
-                  </li>
-                </ul>
-              </div>
-              <div class="md:hidden flex w-full space-x-6 text-lg sm:mt-0">
-                <a href="#" class="text-black">
-                  <img
-                    class="w-[20px]"
-                    src="../public/icons/footer/mail.svg"
-                    alt="mail"
-                  />
-                </a>
-                <a href="#" class="text-black">
-                  <img
-                    class="w-[20px]"
-                    src="../public/icons/footer/facebook.svg"
-                    alt="mail"
-                  />
-                </a>
-                <a href="#" class="text-black">
-                  <img
-                    class="w-[20px]"
-                    src="../public/icons/footer/Instagram.svg"
-                    alt="mail"
-                  />
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="w-full">
-            <div class="lg:w-2/3 w-full mx-auto">
-              <h1 class="text-xl font-light">Subsribe to our newsletter</h1>
-              <form action="#" class="mx-auto">
-                <div
-                  class="items-center my-3 space-y-4 max-w-screen-sm sm:flex sm:space-y-0"
-                >
-                  <div class="relative w-full">
-                    <input
-                      class="block p-3 w-full text-base text-gray-900 bg-white border-2 border-gray-400"
-                      placeholder="Your email address"
-                      type="email"
-                      id="email"
-                      required=""
-                    />
-                  </div>
-                  <div>
-                    <button
-                      type="submit"
-                      class="py-4 px-5 w-full text-base font-medium text-center bg-black text-white"
-                    >
-                      Subscribe
-                    </button>
-                  </div>
-                </div>
-                <div
-                  class="mx-auto flex space-x-2 items-center text-base text-left"
-                >
-                  <input
-                    class="focus:border-transparent checked:bg-black focus:ring-0"
-                    type="checkbox"
-                  />
-                  <p class="text-sm">
-                    I'd like to receive occasional emails. See our
-                    <b>PRIVACY POLICY</b>
-                  </p>
-                </div>
-              </form>
-            </div>
-          </div>
-        </div>
-        <div
-          class="grid md:grid-cols-2 items-center justify-between grid-cols-1 max-w-[1540px] py-4 m-auto"
-        >
-          <div class="md:flex hidden w-full space-x-6 text-lg sm:mt-0">
-            <a href="#" class="text-black">
-              <img
-                class="w-[20px]"
-                src="../public/icons/footer/mail.svg"
-                alt="mail"
-              />
-            </a>
-            <a href="#" class="text-black">
-              <img
-                class="w-[20px]"
-                src="../public/icons/footer/facebook.svg"
-                alt="mail"
-              />
-            </a>
-            <a href="#" class="text-black">
-              <img
-                class="w-[20px]"
-                src="../public/icons/footer/Instagram.svg"
-                alt="mail"
-              />
-            </a>
-          </div>
-
-          <div>
-            <ul class="flex justify-center space-x-6">
+            <ul
+              class="font-medium flex sm:py-0 py-10 flex-col h-full sm:justify-none justify-between p-5 lg:p-0 lg:flex-row lg:space-x-6 md:mt-0 md:border-0 md:bg-white"
+            >
               <li>
-                <a href="#" class="block py-2 rounded text-clr_monochrome_dark"
-                  >Terms and conditions</a
+                <a
+                  href="./artists.html"
+                  class="block py-2 text-clr_monochrome_dark rounded md:bg-transparent"
+                  aria-current="page"
+                  >Artists</a
+                >
+              </li>
+              <li>
+                <a
+                  href="./src/home.html"
+                  class="block py-2 rounded text-clr_monochrome_dark"
+                  >Exhibitions</a
                 >
               </li>
               <li>
                 <a href="#" class="block py-2 rounded text-clr_monochrome_dark"
-                  >Privacy policy</a
+                  >Art fairs</a
                 >
+              </li>
+              <li>
+                <a href="#" class="block py-2 rounded text-clr_monochrome_dark"
+                  >Publications</a
+                >
+              </li>
+              <li>
+                <a href="#" class="block py-2 rounded text-clr_monochrome_dark"
+                  >News</a
+                >
+              </li>
+              <li>
+                <a href="#" class="block py-2 rounded text-clr_monochrome_dark"
+                  >About us</a
+                >
+              </li>
+              <li>
+                <select
+                  class="text-gray-900 block text-base"
+                  style="outline: none; border: 0"
+                >
+                  <option value="CA">SL</option>
+                </select>
               </li>
             </ul>
           </div>
-        </div>
+        
       </div>
+    </nav>
+
+
+    <main class="py-32">
+
+    <section>
+        <div class='grid md:grid-cols-2 justify-items-stretch max-w-[1540px] gap-10 p-4 m-auto'>
+            <div class='flex flex-col w-full'>
+                <div class="h-full flex flex-col justify-center">
+                    <h1 class='md:text-2xl text-xl py-5 text-clr_primary font-thin'>Considering unknow know with what is,
+                        and</h1>
+                    <p class="text-lg sm:pt-20 pt-5 text-clr_primary">Chris Johanson</p>
+                </div>
+            </div>
+            <div class="flex md:justify-end justify-center">
+                <img class='max-w-[550px] w-full' src='../public/images/publication_detail/_KKF5280.png' alt="/" />
+            </div>
+        </div>
+
+    </section>
+
+    <section class="md:h-screen md:py-20">
+        <div class='grid md:grid-cols-3 justify-items-between max-w-[1540px] gap-16 p-4 m-auto'>
+            <div class='flex md:col-span-2 flex-col w-full'>
+                <p class="text-base py-5">Chris Johanson’s 2021 exhibition Considering Unknow Know With What Is, And
+                    will be accompanied by a fully illustrated catalogue dedicated exclusively to Johanson’s recent
+                    explorations on recycled canvas. Designed by Perron-Roettinger, the publication features new essays
+                    by both the artist and Jenny Gheith, Associate Curator of Painting and Sculpture at the San
+                    Francisco Museum of Modern Art (SFMOMA).</p>
+                <p>
+                    In her essay for the catalogue, “Harmonic Meditations: Chris Johanson’s Form of Deep Listening,”
+                    Gheith writes:
+                </p>
+                &nbsp;
+                <p>
+                    “Johanson uses words like ‘therapeutic’ when describing the process of making his recent ‘peaceful
+                    paintings.’ Foregrounding the work’s healing effects, Johanson paints in a way that is ‘slow and
+                    deliberate, and because of that creates a calm meditative headspace.’ He has been working in this
+                    manner in order to ‘slow down my thoughts, to reduce the noise of my life.’ Just as in his continual
+                    search for personal and creative growth, Johanson has used his tinnitus—the persistent illusion of
+                    sound in his ears—to reimagine his sonic environment and relationship to listening, so have the
+                    sonic elements in his artworks and installations quieted and slowed down. Not only have they shifted
+                    in tone and register, but some have nearly disappeared. For example, Johanson’s recent compositions
+                    rarely speak to us through speech bubbles and text; rather, his paintings emphasize a more formal
+                    visual language grounded in an energetic flow. These rhythmic hums manifest as swirling shapes based
+                    on the curvature of his hand as it shifts against the surface. Johanson’s vivid palette has
+                    transformed into more muted tones and organic forms that are less saturated and at times seem to
+                    fade into or look worn against the cotton surface.”.
+                </p>
+            </div>
+            <div class="flex flex-col space-y-4">
+                <div>
+                    <p class="font-semibold text-base">Publisher</p>
+                    <p>Mitchell-Innes & Nash</p>
+                </div>
+                <div>
+                    <p class="font-semibold text-base">Book format</p>
+                    <p> Hardcover 8 × 11.5 in.
+                        128 pages
+                        75 color
+                    </p>
+                </div>
+                <div>
+                    <p class="font-semibold text-base">Publication date</p>
+                    <p>April 18, 2023 </p>
+                </div>
+                <div>
+                    <p>ISBN 9781734405248</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    </main>
+
+
+    <footer>
+        <div class="mx-auto  border-t-2 border-clr_primary border-opacity-20 w-full max-w-[1540px] px-6 py-12">
+            <div class="md:flex py-4 md:justify-between">
+                <div class="w-full mb-6 md:mb-0">
+                    <a href="#" class="flex items-center">
+                        <img src="../public/images/glob/primary.svg" class="h-6 mr-3" alt="Flowbite Logo" />
+                    </a>
+                    <h1 class="text-xl py-5 text-clr_monochrome_dark">Zavod Y Gallery</h1>
+                    <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
+                        <div>
+                            <ul class="font-medium space-y-2">
+                                <li>
+                                    <a href="https://flowbite.com/">Trubarjeva 79</a>
+                                </li>
+                                <li>
+                                    <a href="https://tailwindcss.com/">1000 Ljubljana</a>
+                                </li>
+                                <li>
+                                    <a href="https://tailwindcss.com/">Slovenija</a>
+                                </li>
+                            </ul>
+
+                        </div>
+                        <div>
+                            <ul class="font-medium space-y-2">
+                                <li>
+                                    <a href="https://flowbite.com/">info@galerijay.si</a>
+                                </li>
+                                <li>
+                                    <a href="https://tailwindcss.com/">01 429 33 17 / 070 852 462</a>
+                                </li>
+                                <li>
+                                    <a href="https://tailwindcss.com/">v delovnem času</a>
+                                </li>
+                            </ul>
+
+                        </div>
+                        <div class="sm:hidden flex w-full space-x-6 text-lg sm:mt-0">
+                            <a href="#" class="text-black">
+                                <i class="fa-regular fa-envelope"></i>
+                            </a>
+                            <a href="#" class="text-black">
+                                <i class="fa-brands fa-facebook"></i>
+                            </a>
+                            <a href="#" class="text-black">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full">
+                    <div class="lg:w-2/3 w-full mx-auto">
+                        <h1 class="text-xl font-light">Subsribe to our newsletter</h1>
+                        <form action="#" class="mx-auto">
+                            <div class="items-center my-3 space-y-4 max-w-screen-sm sm:flex sm:space-y-0">
+                                <div class="relative w-full">
+                                    <input
+                                        class="block p-3 w-full text-base text-gray-900 bg-white border-2 border-gray-600"
+                                        placeholder="Your email address" type="email" id="email" required="">
+                                </div>
+                                <div>
+                                    <button type="submit"
+                                        class="py-3 px-5 w-full text-base font-medium border-2  border-gray-600 text-center bg-black text-white">Subscribe</button>
+                                </div>
+                            </div>
+                            <div class="mx-auto flex space-x-2 items-center text-base text-left">
+                                <input class="focus:border-transparent checked:bg-black focus:ring-0" type="checkbox" />
+                                <p class="text-sm">I'd like to receive occasional emails. See our <b>PRIVACY POLICY</b>
+                                </p>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-6 sm:mx-auto lg:my-8" />
+            <div class="sm:flex sm:items-start sm:justify-between">
+                <div class="sm:flex hidden w-full space-x-6 text-lg sm:mt-0">
+                    <a href="#" class="text-black">
+                        <i class="fa-regular fa-envelope"></i>
+                    </a>
+                    <a href="#" class="text-black">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a href="#" class="text-black">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </div>
+                <div class="w-full flex sm:justify-start justify-center">
+                    <ul class="flex space-x-6">
+                        <li>
+                            <a href="#" class="block py-2 rounded text-clr_monochrome_dark">Terms and conditions</a>
+                        </li>
+                        <li>
+                            <a href="#" class="block py-2 rounded text-clr_monochrome_dark">Privacy policy</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </footer>
+
     <script src="../main.js"></script>
-  </body>
+
+</body>
+
 </html>

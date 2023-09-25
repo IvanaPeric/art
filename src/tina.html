@@ -16,11 +16,12 @@
       <div
         class="max-w-[1540px] flex h-[80px] items-center justify-between mx-auto p-4"
       >
-        <a href="#">
+        <a href="" class="flex items-center">
           <img
             src="../public/images/glob/primary.svg"
-            class="h-6 mr-3"
-            alt="Logo"
+            style="height: 25px"
+            class="mr-3"
+            alt="Flowbite Logo"
           />
         </a>
         <button
@@ -32,7 +33,7 @@
         >
           <img
             class="icon-open"
-            style="height: 16px"
+            style="height: 20px"
             src="../public/icons/menu.svg"
             alt=""
           />
@@ -47,12 +48,11 @@
           <img style="height: 20px" src="../public/icons/close.svg" alt="" />
         </button>
         <div
-          class="navbar h-full-nav lg:static lg:block hidden h-full fixed top-20 bg-white left-0 z-10 lg:w-auto w-full"
+          class="navbar h-full-nav lg:static lg:block hidden fixed top-20 bg-white left-0 z-10 lg:w-auto w-full"
           id="navbar-default"
         >
           <ul
-            style="height: calc(100% - 80px)"
-            class="font-medium lg:text-base text-lg flex flex-col lg:p-0 p-5 sm:justify-none justify-between lg:flex-row lg:space-x-6 md:mt-0 md:border-0"
+            class="font-medium flex sm:py-0 py-10 flex-col h-full sm:justify-none justify-between p-5 lg:p-0 lg:flex-row lg:space-x-6 md:mt-0 md:border-0 md:bg-white"
           >
             <li>
               <a
@@ -89,35 +89,31 @@
                 >About us</a
               >
             </li>
-
             <li>
               <select
-                class="text-gray-900 block lg:text-base text-lg"
+                class="text-gray-900 block text-base"
                 style="outline: none; border: 0"
               >
                 <option value="CA">SL</option>
-                <option value="CA">GE</option>
-                <option value="CA">EN</option>
               </select>
             </li>
-            <li></li>
           </ul>
         </div>
       </div>
     </nav>
 
-    <main class="py-20">
+    <main>
       <section>
         <div
-          class="grid sm:grid-cols-2 justify-items-stretch max-w-[1540px] gap-10 p-4 m-auto"
+          class="grid md:grid-cols-2 justify-items-stretch max-w-[1540px] gap-10 p-4 m-auto"
         >
           <div class="flex flex-col w-full">
             <div class="h-full flex items-center">
-              <h1 class="text-2xl text-clr_primary font-light">
+              <h1 class="md:text-2xl text-xl lg:py-5 pt-20 text-clr_primary font-thin">
                 Tina Dobrajc
               </h1>
             </div>
-            <div class="sm:flex flex-col hidden gap-20">
+            <div class="md:flex hidden gap-20">
               <ul class="text-base space-y-2 text-clr_monochrome_dark">
                 <li>Instagram</li>
                 <li>Facebook</li>
@@ -135,20 +131,21 @@
               </p>
             </div>
           </div>
-          <div class="flex justify-center">
-            <div style="width: 100%; max-width: 550px">
-              <figure class="hover-img">
-                <img class="w-full" src="../public/images/aritsts/img2.svg" />
-                <figcaption class="text-base space-y-4">
-                  <h3 class="text-lg">Slavic Fusion</h3>
-                  <p>Olje na platno 77 × 99 cm</p>
-                  <p>2018</p>
-                </figcaption>
-              </figure>
-            </div>
+          <div class="flex md:justify-end sm:pt-20 justify-center">
+            <figure class="hover-img">
+              <img
+                class="w-full max-w-[550px]"
+                src="../public/images/aritsts/img2.svg"
+              />
+              <figcaption class="text-base space-y-4">
+                <h3 class="text-lg">Slavic Fusion</h3>
+                <p>Olje na platno 77 × 99 cm</p>
+                <p>2018</p>
+              </figcaption>
+            </figure>
           </div>
           <div class="md:hidden flex flex-col gap-10">
-            <p class="text-base">
+            <p class="text-base py-5">
               Slikarska dela akademske slikarke Tine Dobrajc odlikuje
               svojevrstna prepoznavna ikonografija, kjer umetnica prepleta
               tradicijo s sodobnostjo, pri čimer se navdihuje zlasti v slovenski
@@ -173,15 +170,15 @@
             <img class="w-full" src="../public/images/tina/bg.svg" />
             <figcaption class="text-base space-y-4">
               <h3 class="text-lg">Slavic Fusion</h3>
-              <p class="text-base">Olje na platno 77 × 99 cm</p>
-              <p class="text-base">2018</p>
+              <p>Olje na platno 77 × 99 cm</p>
+              <p>2018</p>
             </figcaption>
           </figure>
           <div
             class="grid md:grid-cols-3 grid-cols-1 px-5 gap-10 w-full sm:mt-20 m-auto"
           >
             <div>
-              <h1 class="text-2xl py-5 max-w-[450px] font-light">Biography</h1>
+              <h1 class="md:text-2xl text-xl py-5 max-w-[450px] font-thin">Biography</h1>
             </div>
             <div class="col-span-2 grid lg:grid-cols-2 grid-cols-1 gap-5">
               <p>
@@ -250,7 +247,6 @@
             class="grid lg:grid-cols-2 grid-cols-1 px-5 grid-cols-1 sm:items-start items-center"
           >
             <div class="grid sm:grid-cols-2 gap-5">
-              <div>
               <figure class="hover-img">
                 <img
                   class="w-full"
@@ -262,8 +258,6 @@
                   <p>2018</p>
                 </figcaption>
               </figure>
-              </div>
-              <div>
               <figure class="hover-img" style="max-height: 520px">
                 <img
                   class="w-full"
@@ -275,7 +269,6 @@
                   <p>2018</p>
                 </figcaption>
               </figure>
-              </div>
             </div>
           </div>
         </div>
@@ -284,10 +277,10 @@
       <section>
         <div class="max-w-[1540px] p-4 m-auto">
           <div class="w-full text-left">
-            <p class="text-2xl font-light py-10">Exhibitions</p>
+            <p class="md:text-2xl text-xl font-thin py-10">Exhibitions</p>
           </div>
           <div
-            class="grid lg:grid-cols-4 lx:grid-cols-2 grid-cols-1 justify-between gap-8 w-full"
+            class="grid lg:grid-cols-4 sm:grid-cols-2 grid-cols-1 justify-between gap-8 w-full"
           >
             <a href="./artist1.html">
               <img class="w-full" src="../public/images/tina/_KKF5280.jpg" />
@@ -328,19 +321,16 @@
           <div class="grid md:grid-cols-2 grid-cols-1 pt-20 gap-10">
             <div class="flex flex-col">
               <button
-                class="exhibition w-full text-xl flex py-2 items-center text-clr_primary font-thin gap-x-5 border-b-2"
+                class="exhibition w-full lg:text-xl text-lg flex py-2 items-center text-clr_primary font-thin gap-x-10 border-b-2"
               >
-                <img
-                  class="w-[35px] sign-exhibition"
-                  src="../public/icons/tina-plus.svg"
-                />
+                <img class="w-[35px] sign-exhibition" src="../public/icons/tina-plus.svg" />
 
                 <p>Solo exhibitions</p>
               </button>
               <div class="md:max-w-[546px]">
                 <div class="md:flex hidden gap-10 py-3">
                   <p style="width: 100px">2022</p>
-                  <div class="flex flex-col space-y-2">
+                  <div style="width: 400px" class="flex flex-col space-y-2">
                     <div>
                       <p class="font-semibold">Sove niso, kar se zdijo</p>
                       <p>Galerija Miklova hiša v Ribnici, Ribnica</p>
@@ -355,7 +345,7 @@
                   class="md:flex hidden gap-10 border-b-2 border-opacity-20 border-clr_primary py-3"
                 >
                   <p style="width: 100px">2020</p>
-                  <div class="flex flex-col space-y-2">
+                  <div style="width: 400px" class="flex flex-col space-y-2">
                     <div>
                       <p class="font-semibold">
                         Žival sem, ujeta v tvoj vroč beton
@@ -372,7 +362,7 @@
                   class="md:flex hidden gap-10 border-b-2 border-opacity-20 border-clr_primary py-3"
                 >
                   <p style="width: 100px">2019</p>
-                  <div class="flex flex-col space-y-2">
+                  <div style="width: 400px" class="flex flex-col space-y-2">
                     <div>
                       <p class="font-semibold">
                         Domesticated Animals (It's Hard to Work in a Dress)
@@ -396,7 +386,7 @@
                   class="md:flex hidden gap-10 border-b-2 border-opacity-20 border-clr_primary py-3"
                 >
                   <p style="width: 100px">2018</p>
-                  <div class="flex flex-col space-y-2">
+                  <div style="width: 400px" class="flex flex-col space-y-2">
                     <div>
                       <p class="font-semibold">
                         Velika Dekleta ne jeočejo / Big girls don't cry
@@ -409,10 +399,10 @@
                   class="md:flex hidden gap-10 border-b-2 border-opacity-20 border-clr_primary py-3"
                 >
                   <p style="width: 100px">2017</p>
-                  <div class="flex flex-col space-y-2">
+                  <div style="width: 300px" class="flex flex-col space-y-2">
                     <div>
                       <p class="font-semibold">Velika Dekleta ne jočejo</p>
-                      <p>
+                      <p style="width: 400px">
                         Galerija Božidar Jakac, nekdanja samostanska cerkev,
                         Samostojna razstava, Kostanjevica na Krki
                       </p>
@@ -423,7 +413,7 @@
                   class="flex gap-10 border-b-2 border-opacity-20 border-clr_primary py-3"
                 >
                   <p style="width: 100px">2016</p>
-                  <div class="flex flex-col space-y-2">
+                  <div style="width: 400px" class="flex flex-col space-y-2">
                     <div>
                       <p class="font-semibold">Na senčni strani Alp</p>
                       <p>Galerija AS, Ljubljana</p>
@@ -434,7 +424,7 @@
                   class="flex gap-10 border-b-2 relative border-opacity-20 border-clr_primary py-3"
                 >
                   <div style="width: 100px">2014 — 2015</div>
-                  <div class="flex flex-col space-y-2">
+                  <div style="width: 400px" class="flex flex-col space-y-2">
                     <div>
                       <p class="font-semibold">The mother of the world</p>
                       <p>Galerija Equrna, Ljubljana</p>
@@ -445,7 +435,7 @@
                   class="flex gap-10 border-b-2 border-opacity-20 border-clr_primary py-3"
                 >
                   <p style="width: 100px">2013</p>
-                  <div class="flex flex-col space-y-2">
+                  <div style="width: 400px" class="flex flex-col space-y-2">
                     <div>
                       <p class="font-semibold">
                         Nonfavoloso mondo favoloso / Nepravljični pravljični
@@ -459,7 +449,7 @@
                   class="flex gap-10 border-b-2 border-opacity-20 border-clr_primary py-3"
                 >
                   <p style="width: 100px">2012</p>
-                  <div class="flex flex-col space-y-2">
+                  <div style="width: 400px" class="flex flex-col space-y-2">
                     <div>
                       <p class="font-semibold">Wunderkammer; Deposed/Exposed</p>
                       <p>
@@ -473,18 +463,15 @@
             </div>
             <div>
               <button
-                class="exhibition w-full text-xl py-2 flex items-center text-clr_primary font-thin gap-x-5 border-b-2"
+                class="exhibition w-full lg:text-xl text-lg py-2 flex items-center text-clr_primary font-thin gap-x-10 border-b-2"
               >
-                <img
-                  class="w-[35px] sign-exhibition"
-                  src="../public/icons/tina-plus.svg"
-                />
-                <p>Group exhibitions</p>
+              <img class="w-[35px] sign-exhibition" src="../public/icons/tina-plus.svg" />
+              <p>Group exhibitions</p>
               </button>
               <div class="md:max-w-[546px]">
                 <div class="md:flex hidden gap-10 py-3">
                   <p style="width: 100px">2022</p>
-                  <div class="flex flex-col space-y-2">
+                  <div style="width: 400px" class="flex flex-col space-y-2">
                     <div>
                       <p class="font-semibold">Sove niso, kar se zdijo</p>
                       <p>Galerija Miklova hiša v Ribnici, Ribnica</p>
@@ -499,7 +486,7 @@
                   class="md:flex hidden gap-10 border-b-2 border-opacity-20 border-clr_primary py-3"
                 >
                   <p style="width: 100px">2020</p>
-                  <div class="flex flex-col space-y-2">
+                  <div style="width: 400px" class="flex flex-col space-y-2">
                     <div>
                       <p class="font-semibold">
                         Žival sem, ujeta v tvoj vroč beton
@@ -516,7 +503,7 @@
                   class="md:flex hidden gap-10 border-b-2 border-opacity-20 border-clr_primary py-3"
                 >
                   <p style="width: 100px">2019</p>
-                  <div class="flex flex-col space-y-2">
+                  <div style="width: 400px" class="flex flex-col space-y-2">
                     <div>
                       <p class="font-semibold">
                         Domesticated Animals (It's Hard to Work in a Dress)
@@ -540,7 +527,7 @@
                   class="md:flex hidden gap-10 border-b-2 border-opacity-20 border-clr_primary py-3"
                 >
                   <p style="width: 100px">2018</p>
-                  <div class="flex flex-col space-y-2">
+                  <div style="width: 400px" class="flex flex-col space-y-2">
                     <div>
                       <p class="font-semibold">
                         Velika Dekleta ne jeočejo / Big girls don't cry
@@ -553,10 +540,10 @@
                   class="md:flex hidden gap-10 border-b-2 border-opacity-20 border-clr_primary py-3"
                 >
                   <p style="width: 100px">2017</p>
-                  <div class="flex flex-col space-y-2">
+                  <div style="width: 300px" class="flex flex-col space-y-2">
                     <div>
                       <p class="font-semibold">Velika Dekleta ne jočejo</p>
-                      <p>
+                      <p style="width: 400px">
                         Galerija Božidar Jakac, nekdanja samostanska cerkev,
                         Samostojna razstava, Kostanjevica na Krki
                       </p>
@@ -567,7 +554,7 @@
                   class="flex gap-10 border-b-2 border-opacity-20 border-clr_primary py-3"
                 >
                   <p style="width: 100px">2016</p>
-                  <div class="flex flex-col space-y-2">
+                  <div style="width: 400px" class="flex flex-col space-y-2">
                     <div>
                       <p class="font-semibold">Na senčni strani Alp</p>
                       <p>Galerija AS, Ljubljana</p>
@@ -578,7 +565,7 @@
                   class="flex gap-10 border-b-2 relative border-opacity-20 border-clr_primary py-3"
                 >
                   <div style="width: 100px">2014 — 2015</div>
-                  <div class="flex flex-col space-y-2">
+                  <div style="width: 400px" class="flex flex-col space-y-2">
                     <div>
                       <p class="font-semibold">The mother of the world</p>
                       <p>Galerija Equrna, Ljubljana</p>
@@ -589,7 +576,7 @@
                   class="flex gap-10 border-b-2 border-opacity-20 border-clr_primary py-3"
                 >
                   <p style="width: 100px">2013</p>
-                  <div class="flex flex-col space-y-2">
+                  <div style="width: 400px" class="flex flex-col space-y-2">
                     <div>
                       <p class="font-semibold">
                         Nonfavoloso mondo favoloso / Nepravljični pravljični
@@ -603,7 +590,7 @@
                   class="flex gap-10 border-b-2 border-opacity-20 border-clr_primary py-3"
                 >
                   <p style="width: 100px">2012</p>
-                  <div class="flex flex-col space-y-2">
+                  <div style="width: 400px" class="flex flex-col space-y-2">
                     <div>
                       <p class="font-semibold">Wunderkammer; Deposed/Exposed</p>
                       <p>
@@ -622,7 +609,7 @@
       <section class="px-5 py-20">
         <div class="max-w-[1540px] mx-auto">
           <div
-            class="grid md:grid-cols-3 grid-cols-1 items-center gap-8"
+            class="grid md:grid-cols-3 grid-cols-1 items-center md:gap-32 gap-8"
           >
             <figure class="hover-img" style="max-height: 520px">
               <img
@@ -630,9 +617,9 @@
                 src="../public/images/tina/PREDOGLED_Post-Tenebras-Lux_2020_TinaDobrajc_210x275cm 1.svg"
               />
               <figcaption class="text-base space-y-4">
-                <h3 class="text-base">Slavic Fusion</h3>
-                <p class="text-sm">Olje na platno 77 × 99 cm</p>
-                <p class="text-sm">2018</p>
+                <h3 class="text-lg">Slavic Fusion</h3>
+                <p>Olje na platno 77 × 99 cm</p>
+                <p>2018</p>
               </figcaption>
             </figure>
             <figure
@@ -656,9 +643,7 @@
       <section class="py-10">
         <div class="max-w-[1540px] grid md:grid-cols-2 grid-cols-1 p-4 m-auto">
           <div class="w-full text-left">
-            <p class="text-2xl font-light text-left pb-10">
-              Awards & recognitions
-            </p>
+            <p class="md:text-2xl text-xl font-thin pb-10">Awards & recognitions</p>
           </div>
           <div class="max-w-[546px]">
             <div
@@ -711,12 +696,12 @@
         </div>
       </section>
 
-      <section>
+      <section class="py-10">
         <div class="p-4 max-w-[1540px] m-auto">
           <div class="w-full grid lg:grid-cols-2 justify-between gap-16">
             <div class="md:hidden flex items-center">
               <div
-                class="text-xl py-5 w-full border-b-2 border-clr_primary border-opacity-20 text-clr_primary font-light"
+                class="text-xl py-5 w-full border-b-2 border-clr_primary border-opacity-20 text-clr_primary font-thin"
               >
                 Selected artworks
               </div>
@@ -728,7 +713,7 @@
             <div class="flex flex-col">
               <div class="md:flex hidden items-center">
                 <div
-                  class="text-xl py-5 w-full border-b-2 border-clr_primary border-opacity-20 text-clr_primary font-light"
+                  class="text-xl py-5 w-full border-b-2 border-clr_primary border-opacity-20 text-clr_primary font-thin"
                 >
                   Selected artworks
                 </div>
@@ -763,21 +748,21 @@
 
     <footer>
       <div
-        class="mx-auto border-t-2 border-clr_primary border-opacity-20 w-full max-w-[1540px] p-4"
+        class="mx-auto border-t-2 border-clr_primary border-opacity-20 w-full max-w-[1540px] px-6 py-12"
       >
         <div class="md:flex py-4 md:justify-between">
           <div class="w-full mb-6 md:mb-0">
-            <a href="#">
+            <a href="#" class="flex items-center">
               <img
                 src="../public/images/glob/primary.svg"
                 class="h-6 mr-3"
-                alt="Logo"
+                alt="Flowbite Logo"
               />
             </a>
-            <h1 class="text-xl font-light py-5 text-clr_monochrome_dark">
+            <h1 class="text-xl py-5 text-clr_monochrome_dark">
               Zavod Y Gallery
             </h1>
-            <div class="grid grid-cols-2 gap-8 sm:gap-6 lg:grid-cols-3">
+            <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
               <div>
                 <ul class="font-medium space-y-2">
                   <li>
@@ -806,27 +791,15 @@
                   </li>
                 </ul>
               </div>
-              <div class="md:hidden flex w-full space-x-6 text-lg sm:mt-0">
+              <div class="sm:hidden flex w-full space-x-6 text-lg sm:mt-0">
                 <a href="#" class="text-black">
-                  <img
-                    class="w-[20px]"
-                    src="../public/icons/footer/mail.svg"
-                    alt="mail"
-                  />
+                  <i class="fa-regular fa-envelope"></i>
                 </a>
                 <a href="#" class="text-black">
-                  <img
-                    class="w-[20px]"
-                    src="../public/icons/footer/facebook.svg"
-                    alt="mail"
-                  />
+                  <i class="fa-brands fa-facebook"></i>
                 </a>
                 <a href="#" class="text-black">
-                  <img
-                    class="w-[20px]"
-                    src="../public/icons/footer/Instagram.svg"
-                    alt="mail"
-                  />
+                  <i class="fa-brands fa-instagram"></i>
                 </a>
               </div>
             </div>
@@ -840,7 +813,7 @@
                 >
                   <div class="relative w-full">
                     <input
-                      class="block p-3 w-full text-base text-gray-900 bg-white border-2 border-gray-400"
+                      class="block p-3 w-full text-base text-gray-900 bg-white border-2 border-gray-600"
                       placeholder="Your email address"
                       type="email"
                       id="email"
@@ -850,7 +823,7 @@
                   <div>
                     <button
                       type="submit"
-                      class="py-4 px-5 w-full text-base font-medium text-center bg-black text-white"
+                      class="py-3 px-5 w-full text-base font-medium border-2 border-gray-600 text-center bg-black text-white"
                     >
                       Subscribe
                     </button>
@@ -872,35 +845,21 @@
             </div>
           </div>
         </div>
-        <div
-          class="grid md:grid-cols-2 items-center justify-between grid-cols-1 max-w-[1540px] py-4 m-auto"
-        >
-          <div class="md:flex hidden w-full space-x-6 text-lg sm:mt-0">
+        <hr class="my-6 sm:mx-auto lg:my-8" />
+        <div class="sm:flex sm:items-start sm:justify-between">
+          <div class="sm:flex hidden w-full space-x-6 text-lg sm:mt-0">
             <a href="#" class="text-black">
-              <img
-                class="w-[20px]"
-                src="../public/icons/footer/mail.svg"
-                alt="mail"
-              />
+              <i class="fa-regular fa-envelope"></i>
             </a>
             <a href="#" class="text-black">
-              <img
-                class="w-[20px]"
-                src="../public/icons/footer/facebook.svg"
-                alt="mail"
-              />
+              <i class="fa-brands fa-facebook"></i>
             </a>
             <a href="#" class="text-black">
-              <img
-                class="w-[20px]"
-                src="../public/icons/footer/Instagram.svg"
-                alt="mail"
-              />
+              <i class="fa-brands fa-instagram"></i>
             </a>
           </div>
-
-          <div>
-            <ul class="flex justify-center space-x-6">
+          <div class="w-full flex sm:justify-start justify-center">
+            <ul class="flex space-x-6">
               <li>
                 <a href="#" class="block py-2 rounded text-clr_monochrome_dark"
                   >Terms and conditions</a
@@ -930,68 +889,8 @@
         },
         allowTouchMove: false,
       });
-
-      const sliderContent = [
-        {
-          id: 1,
-          content: "Olje na platno 77 × 99 cm",
-          img: "../public/images/tina/_KKF3717-Edit.jpg",
-          title: "Slavic Fusion",
-          year: "2021",
-        },
-        {
-          id: 2,
-          content: "akril, olje na platnu 140 cm x 120 cm",
-          img: "../public/images/tina/PREDOGLED_Post-Tenebras-Lux_2020_TinaDobrajc_210x275cm 1.svg",
-          title: "Sašo Vrabič - Ekran nad skrinjo",
-          year: "2018",
-        },
-      ];
-
-      const swiperWrapper = document.querySelector(".swiper-wrapper");
-      const slides = document.querySelectorAll(".swiper-slide");
-      const yearSwiper = document.querySelector(".swiper-year");
-      const contentSwiper = document.querySelector(".content-swiper");
-      const titleSwiper = document.querySelector(".title-swiper");
-      const swipperNext = document.querySelector(".swiper-button-next");
-      const swipperPrev = document.querySelector(".swiper-button-prev");
-
-      let i = 0;
-
-      const updateContent = (i) => {
-        contentSwiper.innerText =
-        sliderContent[i % sliderContent.length].content;
-        titleSwiper.innerText = sliderContent[i % sliderContent.length].title;
-        yearSwiper.innerText = sliderContent[i % sliderContent.length].year;
-      };
-
-      sliderContent.forEach((slide, index) => {
-        const div = document.createElement("div");
-        div.classList.add("swiper-slide");
-        div.innerHTML = `    
-        <img
-          class="w-full swiper-img"
-          src="${slide.img}"
-          alt="/"
-        />
-    `;
-        swiperWrapper.appendChild(div);
-      });
-
-      contentSwiper.innerText = sliderContent[i].content;
-      swipperNext.addEventListener("click", (e) => {
-        e.preventDefault();
-        if (i < sliderContent.length) i = 0;
-        i++;
-        updateContent(i % sliderContent.length);
-      });
-
-      swipperPrev.addEventListener("click", (e) => {
-        e.preventDefault();
-        if (i > 0) i = sliderContent.length - 1;
-        i--;
-        updateContent(i % sliderContent.length);
-      });
     </script>
+
+    <script src="../swipper.js"></script>
   </body>
 </html>
